@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB3E5F741D6EB127009095FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3E5F731D6EB127009095FE /* main.m */; };
+		AB3E5F771D6EB127009095FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3E5F761D6EB127009095FE /* AppDelegate.m */; };
+		AB3E5F7A1D6EB127009095FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3E5F791D6EB127009095FE /* ViewController.m */; };
+		AB3E5F7D1D6EB127009095FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3E5F7B1D6EB127009095FE /* Main.storyboard */; };
+		AB3E5F7F1D6EB127009095FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB3E5F7E1D6EB127009095FE /* Assets.xcassets */; };
+		AB3E5F821D6EB127009095FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3E5F801D6EB127009095FE /* LaunchScreen.storyboard */; };
+		AB3E5F8D1D6EB127009095FE /* DurianCamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3E5F8C1D6EB127009095FE /* DurianCamTests.m */; };
+		AB3E5F981D6EB127009095FE /* DurianCamUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3E5F971D6EB127009095FE /* DurianCamUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB3E5F891D6EB127009095FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB3E5F671D6EB127009095FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB3E5F6E1D6EB127009095FE;
+			remoteInfo = DurianCam;
+		};
+		AB3E5F941D6EB127009095FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB3E5F671D6EB127009095FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB3E5F6E1D6EB127009095FE;
+			remoteInfo = DurianCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB3E5F6F1D6EB127009095FE /* DurianCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DurianCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3E5F731D6EB127009095FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB3E5F751D6EB127009095FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB3E5F761D6EB127009095FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB3E5F781D6EB127009095FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB3E5F791D6EB127009095FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB3E5F7C1D6EB127009095FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB3E5F7E1D6EB127009095FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB3E5F811D6EB127009095FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB3E5F831D6EB127009095FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB3E5F881D6EB127009095FE /* DurianCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DurianCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3E5F8C1D6EB127009095FE /* DurianCamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DurianCamTests.m; sourceTree = "<group>"; };
+		AB3E5F8E1D6EB127009095FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB3E5F931D6EB127009095FE /* DurianCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DurianCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3E5F971D6EB127009095FE /* DurianCamUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DurianCamUITests.m; sourceTree = "<group>"; };
+		AB3E5F991D6EB127009095FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB3E5F6C1D6EB127009095FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3E5F851D6EB127009095FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3E5F901D6EB127009095FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB3E5F661D6EB127009095FE = {
+			isa = PBXGroup;
+			children = (
+				AB3E5F711D6EB127009095FE /* DurianCam */,
+				AB3E5F8B1D6EB127009095FE /* DurianCamTests */,
+				AB3E5F961D6EB127009095FE /* DurianCamUITests */,
+				AB3E5F701D6EB127009095FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB3E5F701D6EB127009095FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB3E5F6F1D6EB127009095FE /* DurianCam.app */,
+				AB3E5F881D6EB127009095FE /* DurianCamTests.xctest */,
+				AB3E5F931D6EB127009095FE /* DurianCamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB3E5F711D6EB127009095FE /* DurianCam */ = {
+			isa = PBXGroup;
+			children = (
+				AB3E5F751D6EB127009095FE /* AppDelegate.h */,
+				AB3E5F761D6EB127009095FE /* AppDelegate.m */,
+				AB3E5F781D6EB127009095FE /* ViewController.h */,
+				AB3E5F791D6EB127009095FE /* ViewController.m */,
+				AB3E5F7B1D6EB127009095FE /* Main.storyboard */,
+				AB3E5F7E1D6EB127009095FE /* Assets.xcassets */,
+				AB3E5F801D6EB127009095FE /* LaunchScreen.storyboard */,
+				AB3E5F831D6EB127009095FE /* Info.plist */,
+				AB3E5F721D6EB127009095FE /* Supporting Files */,
+			);
+			path = DurianCam;
+			sourceTree = "<group>";
+		};
+		AB3E5F721D6EB127009095FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB3E5F731D6EB127009095FE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB3E5F8B1D6EB127009095FE /* DurianCamTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB3E5F8C1D6EB127009095FE /* DurianCamTests.m */,
+				AB3E5F8E1D6EB127009095FE /* Info.plist */,
+			);
+			path = DurianCamTests;
+			sourceTree = "<group>";
+		};
+		AB3E5F961D6EB127009095FE /* DurianCamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB3E5F971D6EB127009095FE /* DurianCamUITests.m */,
+				AB3E5F991D6EB127009095FE /* Info.plist */,
+			);
+			path = DurianCamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB3E5F6E1D6EB127009095FE /* DurianCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB3E5F9C1D6EB127009095FE /* Build configuration list for PBXNativeTarget "DurianCam" */;
+			buildPhases = (
+				AB3E5F6B1D6EB127009095FE /* Sources */,
+				AB3E5F6C1D6EB127009095FE /* Frameworks */,
+				AB3E5F6D1D6EB127009095FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DurianCam;
+			productName = DurianCam;
+			productReference = AB3E5F6F1D6EB127009095FE /* DurianCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB3E5F871D6EB127009095FE /* DurianCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB3E5F9F1D6EB127009095FE /* Build configuration list for PBXNativeTarget "DurianCamTests" */;
+			buildPhases = (
+				AB3E5F841D6EB127009095FE /* Sources */,
+				AB3E5F851D6EB127009095FE /* Frameworks */,
+				AB3E5F861D6EB127009095FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB3E5F8A1D6EB127009095FE /* PBXTargetDependency */,
+			);
+			name = DurianCamTests;
+			productName = DurianCamTests;
+			productReference = AB3E5F881D6EB127009095FE /* DurianCamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB3E5F921D6EB127009095FE /* DurianCamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB3E5FA21D6EB127009095FE /* Build configuration list for PBXNativeTarget "DurianCamUITests" */;
+			buildPhases = (
+				AB3E5F8F1D6EB127009095FE /* Sources */,
+				AB3E5F901D6EB127009095FE /* Frameworks */,
+				AB3E5F911D6EB127009095FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB3E5F951D6EB127009095FE /* PBXTargetDependency */,
+			);
+			name = DurianCamUITests;
+			productName = DurianCamUITests;
+			productReference = AB3E5F931D6EB127009095FE /* DurianCamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB3E5F671D6EB127009095FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "sunyung Kim";
+				TargetAttributes = {
+					AB3E5F6E1D6EB127009095FE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					AB3E5F871D6EB127009095FE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AB3E5F6E1D6EB127009095FE;
+					};
+					AB3E5F921D6EB127009095FE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AB3E5F6E1D6EB127009095FE;
+					};
+				};
+			};
+			buildConfigurationList = AB3E5F6A1D6EB127009095FE /* Build configuration list for PBXProject "DurianCam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB3E5F661D6EB127009095FE;
+			productRefGroup = AB3E5F701D6EB127009095FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB3E5F6E1D6EB127009095FE /* DurianCam */,
+				AB3E5F871D6EB127009095FE /* DurianCamTests */,
+				AB3E5F921D6EB127009095FE /* DurianCamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB3E5F6D1D6EB127009095FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3E5F821D6EB127009095FE /* LaunchScreen.storyboard in Resources */,
+				AB3E5F7F1D6EB127009095FE /* Assets.xcassets in Resources */,
+				AB3E5F7D1D6EB127009095FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3E5F861D6EB127009095FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3E5F911D6EB127009095FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB3E5F6B1D6EB127009095FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3E5F7A1D6EB127009095FE /* ViewController.m in Sources */,
+				AB3E5F771D6EB127009095FE /* AppDelegate.m in Sources */,
+				AB3E5F741D6EB127009095FE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3E5F841D6EB127009095FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3E5F8D1D6EB127009095FE /* DurianCamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3E5F8F1D6EB127009095FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3E5F981D6EB127009095FE /* DurianCamUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB3E5F8A1D6EB127009095FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB3E5F6E1D6EB127009095FE /* DurianCam */;
+			targetProxy = AB3E5F891D6EB127009095FE /* PBXContainerItemProxy */;
+		};
+		AB3E5F951D6EB127009095FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB3E5F6E1D6EB127009095FE /* DurianCam */;
+			targetProxy = AB3E5F941D6EB127009095FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB3E5F7B1D6EB127009095FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB3E5F7C1D6EB127009095FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB3E5F801D6EB127009095FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB3E5F811D6EB127009095FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB3E5F9A1D6EB127009095FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB3E5F9B1D6EB127009095FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB3E5F9D1D6EB127009095FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DurianCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.durian.durianCam.DurianCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB3E5F9E1D6EB127009095FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DurianCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.durian.durianCam.DurianCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB3E5FA01D6EB127009095FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DurianCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.durian.durianCam.DurianCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DurianCam.app/DurianCam";
+			};
+			name = Debug;
+		};
+		AB3E5FA11D6EB127009095FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DurianCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.durian.durianCam.DurianCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DurianCam.app/DurianCam";
+			};
+			name = Release;
+		};
+		AB3E5FA31D6EB127009095FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DurianCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.durian.durianCam.DurianCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DurianCam;
+			};
+			name = Debug;
+		};
+		AB3E5FA41D6EB127009095FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DurianCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.durian.durianCam.DurianCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DurianCam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB3E5F6A1D6EB127009095FE /* Build configuration list for PBXProject "DurianCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3E5F9A1D6EB127009095FE /* Debug */,
+				AB3E5F9B1D6EB127009095FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB3E5F9C1D6EB127009095FE /* Build configuration list for PBXNativeTarget "DurianCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3E5F9D1D6EB127009095FE /* Debug */,
+				AB3E5F9E1D6EB127009095FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB3E5F9F1D6EB127009095FE /* Build configuration list for PBXNativeTarget "DurianCamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3E5FA01D6EB127009095FE /* Debug */,
+				AB3E5FA11D6EB127009095FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB3E5FA21D6EB127009095FE /* Build configuration list for PBXNativeTarget "DurianCamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3E5FA31D6EB127009095FE /* Debug */,
+				AB3E5FA41D6EB127009095FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB3E5F671D6EB127009095FE /* Project object */;
+}
